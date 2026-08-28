@@ -1,9 +1,9 @@
-# mobile-game retention-analysis
+# mobile-game-retention-analysis
 
 ### Table of Contents
 
 - [Project Overview](#project-overview)
-- -[Data Sources](#data-sources)
+- [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
 ### Project Overview
 
