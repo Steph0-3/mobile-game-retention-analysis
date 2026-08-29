@@ -5,6 +5,7 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
+
 ### Project Overview
 
 This project explores how a player's first 24 hours of gameplay may relate to whether they return around Day 7. It focuses on level_complete and level_fail events, using SQL and Python to clean and analyze player behavior, along with a basic Logistic Regression model to explore whether these early behaviors can help predict retention. The goal is to better understand early player engagement and identify potential areas for improving player retention.
@@ -14,6 +15,8 @@ This project explores how a player's first 24 hours of gameplay may relate to wh
 Mobile Game Event Data: The primary dataset comes from the Public Firebase Analytics mobile game dataset available through Google BigQuery. It contains event-level gameplay data, including player IDs, event timestamps, event names, platform information, and other player and device attributes.
 
 For this analysis, the original event data was filtered into two analysis datasets: a first 24-hour dataset containing level_complete and level_fail events occurring within the player's first 24 hours, and a 7-day dataset used to determine whether players returned during the Day 7 retention window.
+
+Link to public dataset: https://developers.google.com/analytics/bigquery/app-gaming-demo-dataset?hl=en&utm
 
 ### Tools
 
