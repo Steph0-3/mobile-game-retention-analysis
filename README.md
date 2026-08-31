@@ -5,6 +5,32 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
+- [Charts](#charts)
+
+## Repository
+
+```text
+mobile-game-retention-analysis/
+│
+├── README.md
+│
+├── notebooks/
+│   └── retention_analysis.ipynb
+│
+├── sql/
+│   ├── event_name_check.sql
+│   ├── filtered_levels.sql
+│   ├── first_24_hrs.sql
+│   └── 7days_filter.sql
+│
+├── data/
+│   └── retention_analysis_cleaned.csv
+│
+└── visualizations/
+    ├── 7_day_retention.png
+    ├── avg_level_completions.png
+    └── avg_level_fails.png
+```
 
 ### Project Overview
 
@@ -58,3 +84,10 @@ To answer game retention questions such as:
 ### Limitations
 - The analysis focused only on level_complete and level_fail during the first 24 hours, so other player behaviors that may influence retention were not included.
 - The dataset represents observed player behavior so further testing would be needed to determine whether gameplay changes would improve retention
+
+### Charts
+![avg_level_completions](avg_level_completions.png)
+
+![avg_level_fails](avg_level_fails.png)
+
+![7_day_retention](7_day_retention.png)
